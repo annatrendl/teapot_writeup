@@ -19,10 +19,11 @@
 \usepackage{float}
 \usepackage{array}
 \usepackage{setspace}
+\usepackage{subcaption}
 	\doublespacing
 
 \date{}
-\title{\huge{bleh}}
+\title{\huge{Catchy title}}
 
 \begin{document}
 \maketitle
@@ -54,7 +55,7 @@ In fact, the two distance metrics reflect two fundamentally different ways of pe
 
 More recent research have focused on how the processing of stimuli with integral and separable dimensions differ in perceptual categorization tasks. These studies have typically analysed RTs and choice probabilities in sequential sampling modelling frameworks. \citeA{Little2011} have investigated how the spatial separability of attribute dimensions affects the processing of multiattribute stimuli. They found that when the attribute dimensions are spatially separated (e.g., the base width of a lamp and the curvature of its top piece), they are processed in a sequential, serial manner. However, when the attribute dimensions are spatially overlapping such that both attributes can be attended simultaneously (e.g., the colour of a rectangle and the position of an inset bar), a mixture of serial and parallel processing of dimensions occur. In a follow-up study, they found strong evidence that stimuli with integral attributes (e.g., brightness and saturation) are processed in a coactive fashion, where the attribute information is combined into a single processing channel \cite{Littleetal2013}.
 
-While caution is warranted when applying insights from perceptual categorization to value-based decision making, if stimuli processing share commonalities in the two contexts, it bears significance for any research that aims to investigate the cognitive mechanism underlying the attraction effect in preferential choice.   Crucially, all sequential sampling models that can accommodate the attraction effect rely on the assumption of attribute-wise processing of choice options \textcolor{red}{I think this is true}. In addition, eye-tracking evidence suggests that single-attribute pairwise comparisons play a key role in the attraction effect \cite{Noguchi2014}. \textcolor{red}{not sure if I should expand on this?}
+While caution is warranted when applying insights from perceptual categorization to value-based decision making, if object processing share commonalities in the two contexts, it bears significance for any research that aims to investigate the cognitive mechanism underlying the attraction effect in preferential choice.   Crucially, all the sequential sampling models that are able to accommodate the attraction effect rely on the assumption of attribute-wise processing of choice options \textcolor{red}{I think this is true}. In addition, eye-tracking evidence suggests that single-attribute pairwise comparisons play a key role in the attraction effect \cite{Noguchi2014}. \textcolor{red}{not sure if I should expand on this?}
 
 To elucidate whether it is the separable nature of the choice options that give rise to the attraction effect in value-based decision making, we conducted two experiments. In Experiment 1, participants were presented with attraction-type choice triplets created form two kinds of artificial stimuli (separable and integral version), after passing a training phase where they learnt how to infer the value of the choice alternatives. \textcolor{red}{In Experiment 2,...}
 
@@ -63,22 +64,22 @@ To elucidate whether it is the separable nature of the choice options that give 
 
 \subsection{Method}
 
-In Experiment 1, our aim was to investigate the hypothesis that the strength of the attraction effect depends on the separability of the attribute dimensions. To this end, we created two versions of the same stimuli: a "traditional" version where the two attribute dimensions have numerical values (numerical version), and a perceptual version, where the attribute dimensions are integral and thus cannot be attended independently (pictorial version). We expected to see the attraction effect in the numerical version, where the options can be compared along an attribute dimension, but not in the perceptual version, where the options can only be processed holistically.
+In Experiment 1, our aim was to investigate the hypothesis that the strength of the attraction effect depends on the separability of the attribute dimensions. To this end, we created two versions of the same stimuli: a "traditional" version where the two attribute dimensions have numerical values (numerical condition), and a perceptual version, where the attribute dimensions are integral and thus cannot be attended independently (pictorial condition). We expected to see the attraction effect in the numerical condition, where the options can be compared along an attribute dimension, but not in the pictorial condition, where the options can only be processed holistically.
 
-Designing a value-based choice experiment where the attribute dimensions are integral is challenging. To be consistent with previous research, we chose to use the most well-known integral stimuli in the literature, Munsell colors with a fixed hue but varying brightness and intensity. A wide range of studies have established that these attributes are processed holistically. 
+Designing a value-based choice experiment where the attribute dimensions are integral is challenging. To be consistent with previous research, we chose to use the most well-known integral stimuli in the literature, Munsell colors with a fixed hue but varying brightness and intensity. A wide range of studies have established that these attribute dimensions are integral and therefore are processed holistically. 
 
-We are only aware of a few studies that used perceptual stimuli in a preferential choice context. In these, option's value naturally depended on the perceptual representation of the attribute dimensions (e.g., height and width of rectangle where the value is given by the area). However, when the attributes are integral, it is much harder to "induce" preferences based on a valuation rule, due to the very nature of the stimuli (and the inaccessibility of the independent dimensions). To overcome this difficulty, we first established a valuation rule that assigns a nominal value to each option, based on the two attribute dimensions. Then, in a training phase that preceded the choice task, participants learnt this rule and were instructed to make their choices based on this rule in the subsequent choice task. This way we could ensure that participants had homogeneous preferences over our stimuli set. 
+We are only aware of a few studies that used perceptual stimuli in a preferential choice context. In these, the options' value naturally depended on the perceptual representation of the attribute dimensions (e.g., height and width of rectangle where the value is given by the area). However, when the attributes are integral, it is much harder to "induce" preferences based on a valuation rule, due to the very nature of the stimuli (i.e, the inaccessibility of the independent dimensions). To overcome this difficulty, we first established a valuation rule that assigns a nominal value to each option, based on the two attribute dimensions. Participants had to learn this valuation rule in a training phase that preceded the choice task. They were then asked to rely on the rule in the choice stage. This way we could ensure that participants had homogeneous preferences over our stimuli set. 
 
 
 
 \subsection{Stimuli}
 
-Our stimuli were teapots with varying brightness and intensity levels. Participants were told that the levels of these two attributes determined each teapot's value. In the numerical version, the brightness and intensity values were displayed numerically, whereas in the pictorial version, it was the colour of the teapot that determined the value (this was generated with varying brightness and intensity levels that determined the teapot's value, just like in the numerical version).  
+Our stimuli were teapots with varying brightness and intensity levels. Participants were told that the levels of these two attributes determined each teapot's value. In the numerical condition, the brightness and intensity values were displayed numerically, whereas in the pictorial condition, it was the colour of the teapot that determined the value (this was generated with varying brightness and intensity levels that determined the teapot's value, just like in the numerical condition).  
 
 \subsubsection{Choice triplet selection process}
 
 
-Previous research has shown that one unit change in brightness is perceptually equivalent to a two units change in intensity \cite{Newhall1940}, and we took this into account when constructing the rule that determines the value of each option. Specifically, this relationship is reflected by the the red line on Figure \ref{fig:explain}, which is given by the equation
+Previous research has shown that one unit change in brightness is perceptually equivalent to a two units change in intensity \cite{Newhall1940}, and we took this into account when constructing the rule that determines the value of each option. This relationship is reflected by the the red line on Figure \ref{fig:explain}, which is given by the equation
 \begin{equation} \label{eq:redline}
  f_{x} = 0.5x + 0.25.
 \end{equation}
@@ -92,21 +93,21 @@ Previous research has shown that one unit change in brightness is perceptually e
 \end{figure}
 
 
-All stimuli were required to fall within the boundaries of the black polygon displayed on Figure \ref{fig:explain}. The shape of the polygon ensured that intensity and brightness were restricted to fall between 0.05 and 0.95 and 0.15 and 0.85, respectively, which was necessary to avoid extreme attribute values that hinders the perception of the other attribute dimension (e.g., a very low brightness would translate into a black colour, regardless of the intensity value). 
+All stimuli were required to fall within the boundaries of the black polygon displayed on Figure \ref{fig:explain}. The shape of the polygon ensured that intensity and brightness were restricted to fall between 0.05 and 0.95 and 0.15 and 0.85, respectively, which was necessary to avoid extreme attribute values that hinders the perception of the other attribute dimension (e.g., a very low brightness would translate into a black colour, regardless of the intensity value). For each choice triplet, we first determined the position of the target and competitor options within the polygon, followed by the decoy. Then, we calculated the nominal value of each of the three options based on Equation \ref{eq:redline}.
 
- To obtain the two target candidate options, we first randomly chose a constant that was substituted into the following equation:
+ To obtain the two target candidate options, we first chose a constant that was substituted into the following equation:
 \begin{equation} \label{eq:blueline}
  f_{x} = -0.5x + constant,
 \end{equation}
-which gave us a reflection of the red line described by Equation \ref{eq:redline}, through a randomly chosen point along the same line (this point is uniquely determined by the constant and the constant was chosen so that the point always fell in the polygon). On Figure \ref{fig:explain}, this is the point where the red and the dark blue line cross, and the dark blue line is thus the reflection of the red line.
+which gave us a reflection of the red line described by Equation \ref{eq:redline}, through a point that is uniquely determined by the constant (this is where the two lines cross). The constant was chosen to ensure that this point fell on the red line within the polygon. On Figure \ref{fig:explain}, this is the point where the red and the dark blue line cross, and the dark blue line is thus the reflection of the red line.
 
- We first created the two target candidates by selecting two points along the reflection line, one in the upper halve of the polygon (target candidate A), and another in the lower halve (target candidate B), such that the distance between the two points had to be at least half the overall length of the dark blue line within the polygon. This was important in order to ensure that one of the target candidates has a high intensity and a low brightness value and vice versa, so that they will be perceived as markedly different by the decision maker (as is required from the target and the competitor in an attraction effect choice scenario). Having created the two target candidates, the next step in creating the choice triplets was to determine the position of the decoy option. 
+ We then created the two target candidates by selecting two points along the reflection line, one in the upper halve of the polygon (target candidate A), and another in the lower halve (target candidate B), such that the distance between the two points had to be at least half the overall length of the dark blue line within the polygon. This was important in order to ensure that one of the target candidates has a high intensity and a low brightness value and vice versa, so that they will be perceived as markedly different by the decision maker (as is required from the target and the competitor in an attraction effect choice scenario). Having created the two target candidates, the next step in creating the choice triplets was to determine the position of the decoy option. 
 
 To create the decoy, we first randomly decided which target candidate will be assigned a decoy option. We then again reflected the dark blue line through the chosen target option (either Target A or Target B on the figure), which gave us one of the grey lines, which is parallel to the original red line. Naturally, any option along this line that lies to the left of the target will be inferior to it. 
 
 However, all decoys need to satisfy two criteria. First, a decoy needs to be sufficiently far away from the target option, so that the dominance relationship can be easily identified. Perceiving the dominance relationship is especially problematic with naturalistic stimuli (as opposed to a choice scenario with numerical attributes where it can be identified with absolute certainty - provided that the decision maker pays attention to the task). Therefore, we considered this criterion as the most important when creating the decoys. Second, a decoy cannot be too far away from the target, as they need to be somewhat similar to invoke an attraction effect choice situation.
 
-Taking these into account, we decided that the decoy's position should depend on the distance between the target and the competitor (as this can vary to an extent). This avoids possible situations where the decoy is also dominated by the competitor (this can happen if the target and the competitor are relatively close, while the target and the decoy are relatively far away from each other). Specifically, we decided that the distance between the target and the decoy along the brightness dimension (y axis) should be the 27.5\% of the overall difference between the target and the competitor along the same axis. This criterion uniquely defines a point along the grey line (as shown on Figure \ref{fig:explain}).
+Taking these into account, we decided that the decoy's position should depend on the distance between the target and the competitor (as this can vary to an extent). This avoids situations where the decoy is also dominated by the competitor (this can happen if the target and the competitor are relatively close, while the target and the decoy are relatively far away from each other). Specifically, we decided that the distance between the target and the decoy along the brightness dimension (y axis) should be the 27.5\% of the overall difference between the target and the competitor along the same axis. This criterion uniquely defines a point along the grey line (as shown on Figure \ref{fig:explain}).
 
 Once we have decided on the choice triplet, the next step was to determine the value of the options. We assigned a nominal value to every point along the red line, starting with £0 and going up to £1000 (in the bottom left and top right corner, respectively, where the line crosses the polygon boundaries). Then, we could determine the value of any target, competitor and decoy within the polygon, by reflecting the red line through these points and calculate the value at the point where the two lines cross. 
 
@@ -115,7 +116,7 @@ For example, since the dark blue line crosses the red line at exactly halfway th
 \subsubsection{Experimental procedure}
 
 In the experiment, participants were presented with triplets of teapots (with brightness and intensity attributes either represented numerically or in a pictorial fashion) and their task was to choose the teapot with the highest nominal value. Colour has three components: hue, brightness and intensity, and we fixed the hue at the value of 0.83, and varied the 
-intensity and brightness that determined the value of the teapot. The experiment consisted of two parts (pictorial/numerical attribute representation). Each participant were asked to complete both parts of the experiment, and the order of the two parts was determined randomly. 
+intensity and brightness that determined the value of the teapot. The experiment consisted of two conditions (pictorial/numerical condition). Each participant were asked to complete both conditions, and the order of the two conditions was determined randomly. 
 
 
 \begin{figure}
@@ -125,7 +126,7 @@ intensity and brightness that determined the value of the teapot. The experiment
 \label{fig:choice_sets}
 \end{figure}
 
-Each of the two parts consisted of two stages: a practice and a choice stage (the main task). The practice stage served to "teach" participants how to infer the nominal value of the options based on the numeric attributes/colour of the teapots. While a one-dimensional valuation rule (e.g., the brighter/more intense the colour, the better) can be fairly intuitive and thus easy to learn, when it comes to a two-dimensional learning rule, the interactions between the two integral dimensions can complicate the valuation process. To this end, each choice stage in each part was only accessible upon passing the corresponding practice stage. Before the practice stage, participants  were provided with a "valuation map" that served to explain the association between nominal value and attribute values (see Figure \ref{fig:valuemaps}). The stimuli on the valuation maps were derived from four equally spaced lines (along which nominal value is fixed) that are reflections of the red line on Figure \ref{fig:explain}.
+Each of the two conditions consisted of two stages: a practice and a choice stage (the main task). The practice stage served to "teach" participants how to infer the nominal value of the options based on the numeric attributes/colour of the teapots. While a one-dimensional valuation rule (e.g., the brighter or more intense the colour, the better) can be fairly intuitive and thus easy to learn, when it comes to a two-dimensional learning rule, the interactions between the two integral dimensions can complicate the valuation process. For this reason, each choice stage in each condition was only accessible upon passing the corresponding practice stage. Before the practice stage, participants  were provided with a "valuation map" that served to explain the association between nominal value and attribute values (see Figure \ref{fig:valuemaps}). The stimuli on the valuation maps were derived from four equally spaced lines (along which nominal value is fixed) that are reflections of the red line on Figure \ref{fig:explain}.
 
 
 \begin{figure}
@@ -135,31 +136,30 @@ Each of the two parts consisted of two stages: a practice and a choice stage (th
 \label{fig:valuemaps}
 \end{figure}
 
-As mentioned before, the choice triplets were generated with intensity and brightness values that ranging between 0.05 and 0.95 and 0.15 and 0.85, respectively.  We hypothesised that using integer numbers will make comparisons cognitively less demanding, therefore, in the numerical version, we transformed these values (by subtracting the minimum and multiplying it by 200), so that the new range of intensity and brightness values fell between 0 and 200 and 0 and 140, respectively. In the numerical version, we invited participants to try to infer the trade-off between the two attribute dimensions before starting the practice stage. The true trade-off is of course reflected by the red line on Figure \ref{fig:explain}: a two units change in intensity is equal to a one unit change in brightness.
+As mentioned before, the choice triplets were generated with intensity and brightness values ranging between 0.05 and 0.95 and 0.15 and 0.85, respectively.  We hypothesised that using integer numbers will make comparisons cognitively less demanding, therefore, in the numerical condition, we transformed these values (by subtracting the minimum and multiplying it by 200), so that the new range of intensity and brightness values fell between 0 and 200 and 0 and 140, respectively. In the numerical condition, we invited participants to try to infer the trade-off between the two attribute dimensions before starting the practice stage. The true underlying trade-off is of course reflected by the red line on Figure \ref{fig:explain}: a two units change in intensity is equal to a one unit change in brightness.
 
-Each practice stage consisted of 20 questions, where participants had to guess the relative nominal values of the two displayed options, and use the keyboard to indicate which option was worth more than the other (left/right arrow), or whether they were equally valuable (up arrow). After the keypress, participants were given feedback about whether the answer was correct, and were shown the actual nominal value of the displayed options, to facilitate learning.
-In order to pass this stage and proceed to the subsequent choice task, participants had to get at least 75\% of the questions right (at least 15 questions out of 20). However, participants could attempt to complete the practice as many times as they wished, and after every failed practice session they were encouraged to consult the relevant value map. 
+Each practice stage consisted of 20 questions, where participants had to guess the relative nominal values of the two displayed options, and use the keyboard to indicate which option was worth more than the other (left/right arrow), or whether they were equally valuable (up arrow), as shown on Figure \ref{fig:practicetrial}. After the keypress, participants were given feedback about whether the answer was correct, and were shown the actual nominal value of the displayed options, to facilitate learning.
+In order to pass this stage and proceed to the subsequent choice stage, participants had to get at least 75\% of the questions right (at least 15 questions out of 20). However, participants could attempt to complete the practice as many times as they wished, and after every failed practice session they were encouraged to consult the relevant value map once more. 
+
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=0.65\linewidth]{numprac22.png}
+%\caption{Example practice trial in the numerical condition.}
+\includegraphics[width=0.65\linewidth]{picprac44.png}
+\caption{Example practice trial in the numerical and pictorial condition.}
+\label{fig:practicetrial}
+\end{figure}
+
 
 Using the 500 choice triplets, we created four types of practice questions, based on the value difference between the two options: equal (where the two options were of equal value), difficult (£100-£150 value difference), moderate (£150-£250 value difference), and easy (value difference higher than £250). The 20 questions in each practice session comprised of 5 questions from each type, randomly chosen from the 400 practice questions generated before the experiment (100 questions each type).
 
 
-\begin{figure}
-\centering
-\caption{Example practice sets from types of both tasks.}
-\includegraphics[width=1\textwidth]{practice.png}
-\label{fig:practice}
-\end{figure}
+Once the participant had passed the practice stage, the choice stage began. Participants were presented with 80 choice triplets, where their task was to select the option with the highest nominal value. Out of the 80 questions, 12 of these were catch trials that served to gauge the attention of participants. On these trials, where there was a clearly dominating option. 
 
+To create the catch triplets (75 overall), we again used the 500 choice triplets, by first choosing an option with a nominal value of at least £300, and then two lower options that were at least worth £100 less than the high-value option. The 12 catch trials were randomly chosen from the overall 75. The rest of the trials in the choice stage were used to measure the attraction effect and were randomly selected from the 500 choice triplets (see Figure \ref{fig:choicetriplets}). During each practice and choice trial, the presentation order of the options were always randomised. Between the two conditions, participants could take a break for as long as they liked.
 
-Once the participant had passed the practice stage, the choice stage began. Participants were presented with 80 choice triplets, where their task was to select the option with the highest value. Out of the 80 questions, 12 of these were catch trials that served to gauge the attention of participants. On these trials, where there was a clearly dominating option. 
-
-To create the catch triplets (75 overall), we again used the 500 choice triplets, by first choosing an option with a nominal value of at least £300, and then two lower options that were at least worth £100 less than the high-value option. The 12 catch trials were randomly chosen from the overall 75. The rest of the trials in the choice stage were used to measure the attraction effect and were randomly selected from the 500 choice triplets (see Figure \ref{fig:choicetriplets}). During each practice and choice trial, the presentation order of the options were always randomised. Between the two parts, participants could take a break for as long as they liked.
-
-
-Overall, we tested a 100 participants, all of whom were recruited through the Warwick SONA System.  We obtained ethics approval from The University of Warwick’s Humanities and Social Sciences Research Ethics Committee (reference number: 50/17-18). The study was advertised as a decision-making study, and participants were given a £4 show-up fee, and were told that they could earn £0.5 for every block of 20 correct questions, therefore, the highest possible earning in this experiment was £8 (as there were 160 questions overall). Given that the study involved completing 160 choice trials (and the two practice sessions), incentive-compatibility was important to ensure that participants stayed motivated during the choice stages. The experiment terminated after 50 minutes if the participant has not finished by then. 
-
-
-\begin{figure}
+\begin{figure}[htp!]
 \centering
 \caption{Example choice triplets (from left to right: DTC and DCT).}
 \includegraphics[width=1\textwidth]{choice_triplets.png}
@@ -167,22 +167,25 @@ Overall, we tested a 100 participants, all of whom were recruited through the Wa
 \end{figure}
 
 
+Overall, we tested 100 participants, all of whom were recruited through the Warwick SONA System.  We obtained ethics approval from The University of Warwick’s Humanities and Social Sciences Research Ethics Committee (reference number: 50/17-18). The study was advertised as a decision-making study, and participants were given a £4 show-up fee, and were told that they could earn £0.5 for every block of 20 correct questions, therefore, the highest possible earning in this experiment was £8 (as there were 160 questions overall). Given that completing the study involved 160 choice trials (and the two practice sessions), incentive-compatibility was important to ensure that participants stayed motivated during the choice stages. The experiment terminated after 50 minutes if the participant has not finished by then. 
+
+
 \subsubsection{Exclusion criteria}
 
 To ensure that we only include participants who took the task seriously, we excluded choice blocks where the accuracy on the catch trials were 2.5 standard deviations below the average accuracy for that type of choice task. In addition, we excluded choice blocks that fell into the lowest 2.5\% of the entropy distribution
-and the upper and lower 2.5\% of the autocorrelation distribution. Finally, we excluded trials fell into the fastest and slowest 2.5\% of
+and the upper and lower 2.5\% of the autocorrelation distribution. Finally, we excluded trials fell into the fastest 2.5\% of
 the reaction time distribution and trials where the subject selected the decoy option.
 The study design, exclusion criteria and all the analyses were planned and
-registered before we collected any choice data (supplement?).
+registered before we collected any choice data \textcolor{red}{(see Appendix x)}.
 
 \subsection{Results}
 
-Ideally, if all of the 100 participants had completed both types of choice tasks, we would have data from 200 choice blocks (100 pictorial and 100 numerical each). However, the practice stages turned out to be more challenging for participants than we originally intended, and 14 people did not manage to pass the first practice stage in 50 minutes (or gave up earlier), and consequently we could not collect any choice data from these participants. After applying all exclusion criteria, we were left with choice data from 86 people who completed 68 pictorial and 76 numerical choice blocks. Out of the 86 people, 61 completed both the pictorial and numeric conditions.
+Ideally, if all of the 100 participants had completed both conditions, we would have data from 200 choice blocks (100 pictorial and 100 numerical each). However, the practice stages turned out to be more challenging for participants than we originally intended, and 14 people did not manage to pass the first practice stage in 50 minutes (or gave up earlier), and consequently we could not collect any choice data from these participants. After applying all exclusion criteria, we were left with choice data from 86 people who completed 68 pictorial and 76 numerical choice blocks. Out of the 86 people, 61 completed both the pictorial and numeric conditions.
 
 The left panel on Figure \ref{fig:Explor_teapot} shows the number of attempts it took for participants to pass the numerical and pictorial practice stage (each attempt consisted of 20 questions, as explained above), by the order of the conditions (numerical/pictorial, therefore, there are 86 dots, each of these is a participant). This shows that for the majority of participants, it took fewer than 10 attempts to pass the practice stages, and that they found the two types of practice stages roughly equally challenging. 
 
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
 \caption{Number of practice and choice trials by condition and condition order.}
 \includegraphics[width=1\textwidth]{Explor_teapot.png}
@@ -192,30 +195,34 @@ The left panel on Figure \ref{fig:Explor_teapot} shows the number of attempts it
 
 \begin{figure}
 \centering
-\caption{Proportion of trials on which the decoy was chosen by condition.}
+\caption{Distribution of the proportion of trials on which the decoy was chosen by condition.}
 \includegraphics[width=0.8\textwidth]{Explor_teapot_dec.png}
 \label{fig:Explor_teapot_dec}
 \end{figure}
 
-The right panel on Figure \ref{fig:Explor_teapot} shows the number of completed choice trials by condition and condition order (here each dot refers to a participant's condition, there are 144 of these overall). This shows that the vast majority of participants have managed to finish the choice tasks before the experiment was terminated. We also see that numerical choice stages were more likely to be interrupted, because these typically took longer to complete than the pictorial version.
+
+The right panel on Figure \ref{fig:Explor_teapot} shows the number of completed choice trials by condition and condition order (here each dot refers to a participant's condition, there are 144 of these overall). This shows that the vast majority of participants have managed to finish at least one of the choice stages before the experiment was terminated. We also see that the choice stages were more likely to be interrupted in the numerical condition than in the pictorial condition, because choice trials involving numerical choice options typically took longer.
 
 
 
-Figure \ref{fig:Explor_teapot_dec} shows the distribution of the proportion of trials per condition on which the decoy was chosen. It can be seen that participants generally performed well in identifying dominated options (in 94\% of the 144 conditions, the proportion of the trials where the decoy was chosen was below 10\%). In addition, the decoy was never chosen in 45\% of the numerical and 10\% of the pictorial conditions, which indicates that participants found it much easier to identify the decoy in the numerical condition.
+Figure \ref{fig:Explor_teapot_dec} shows the distribution of the proportion of trials on which the decoy was chosen by condition. It can be seen that participants generally performed well in identifying dominated options (in 94\% of the 144 conditions, the proportion of the trials where the decoy was chosen was below 10\%). In addition, the decoy was never chosen in 45\% of the numerical and 10\% of the pictorial conditions, which indicates that participants found it much easier to identify the decoy in the numerical condition.
 
 
  \begin{figure}
 \centering
-\caption{Distribution of the RTs by condition, condition order and chosen item. RTs were first scaled by subject, then the median was calculated for each subject, condition, condition order and chosen item. Black points and corresponding error bars represent bootstrapped 95\% CIs of the means of these medians weighted by the number of trials.}
-\includegraphics[width=0.8\textwidth]{Teapot_rts.png}
+\captionsetup{justification=centering,margin=2cm}
+\caption{Distribution of the median scaled RT of each participant by condition and chosen item. RTs were first scaled by subject, then the median was calculated for each subject, condition, and chosen item. Black points and corresponding error bars represent bootstrapped 95\% CIs of the means of these medians weighted by the number of trials.}
+\includegraphics[width=0.9\textwidth]{Teapot_rts.png}
 \label{fig:Teapot_rts}
 \end{figure} 
 
- This is not surprising given that in the numerical version, the choice process requires the comparison of the attribute values, during which the decoy option is more likely to be identified and thus avoided, whereas in the pictorial version people are more likely to make a quicker, intuitive decision, which might result in an error. Figure \ref{fig:Teapot_rts} shows the distribution of the median RTs by condition, condition order and chosen item for each subject. As expected, participants took substantially longer to make a decision in the numerical condition. In addition, participants were generally quicker to make decisions in the condition that came second, potentially because they already knew the task or because they were slightly more tired by that point. Interestingly, we do not see differences in RTs by the chosen item. \textcolor{red} {say something about how long it took on average}
+ This is not surprising given that in the numerical version, the choice process requires the sequential comparison of the attribute values, during which the decoy option is more likely to be identified with certainty and thus avoided, whereas in the pictorial version people are more likely to make a quicker, intuitive decision, which might result in an error. 
+ 
+ Figure \ref{fig:Teapot_rts} shows the median RTs for each subject, condition, and chosen item. As expected, participants took substantially longer to make a decision in the numerical condition. In addition, participants were generally quicker to make decisions in the condition that came second, potentially because they already knew the task or because they were slightly more tired by that point. Interestingly, we do not see differences in RTs by the chosen item.
 
- In addition, there were no differences in the performance on the catch trials between the numerical and pictorial conditions (Wilcoxon Signed-Rank Test, p = .482, using data from the 58 participants who completed both conditions), showing that participants were equally good at spotting a dominating option in the two types of choice tasks.
+ In addition, there were no differences in the performance on the catch trials between the numerical and pictorial conditions (Wilcoxon Signed-Rank Test using data from the 58 participants who completed both conditions, p = .482), showing that participants were equally good at spotting a dominating option in the two types of choice tasks.
 
-As we specified in the pre-registration, to investigate how the attraction effect depends on the presentation format of the stimuli, we first tested whether the order of the conditions had any effect on the strength of the attraction effect. We calculated the attraction effect for each participant and condition, as the proportion of all trials (after excluding trials where the decoy was chosen) on which the target was chosen. The left panel on Figure \ref{fig:Teapot_condorder} shows the distribution of the proportion of trials on which the target was chosen. We can see that while the order of the conditions does not affect the strength of the attraction effect in the pictorial choice task, there is a pronounced increase in the numerical condition if it follows the pictorial choice task. We see the same result on the right panel of Figure \ref{fig:Teapot_condorder}, which shows the strength of the effect in the two choice tasks for the subset of participants who completed both types of choice tasks.   
+As we specified in the pre-registration, to investigate how the attraction effect depends on the presentation format of the stimuli, we first tested whether the order of the conditions had any effect on the strength of the attraction effect. For each participant and condition, we calculated the attraction effect as the proportion of all trials (after excluding trials where the decoy was chosen) on which the target was chosen. The left panel on Figure \ref{fig:Teapot_condorder} shows the distribution of the proportion of trials on which the target was chosen. We can see that while the order of the conditions does not affect the strength of the attraction effect in the pictorial choice task, there is a pronounced increase in the numerical condition if it follows the pictorial choice task. We see the same result on the right panel of Figure \ref{fig:Teapot_condorder}, which shows the strength of the effect in the two choice tasks for the subset of participants who completed both types of choice tasks.   
 
 \begin{figure}
 \centering
@@ -224,17 +231,6 @@ As we specified in the pre-registration, to investigate how the attraction effec
 \label{fig:Teapot_condorder}
 \end{figure}
 
-
-
-
-Table \ref{mixedeff} shows the results from a  mixed-effects logistic regression, where we predict the proportion of trials where the target was chosen with the number of practice attempts and an interaction between condition and condition order.  The results again indicate that the strength of the attraction effect in the numerical condition is much more pronounced when the first condition was pictorial. Specifically, we see a 34\% increase in the odds of choosing the target in the numerical condition, but only when it follows the pictorial condition. Interestingly, we also see a very small negative effect of the number of practice attempts: with each attempt, we see a 1.4\% decrease in the odds of choosing the target.
-
-Since the order of the conditions modulated the effect, we only used every participant's first condition for our final test of the attraction effect. As expected from the visual inspection of Figure \ref{fig:Teapot_condorder}, when using Welch's t-test, we found no difference between the proportion of trials where the target was chosen in the pictorial (M = 0.5, 95\% CI [0.47, 0.53], N = 41) or numerical (M = 0.51, 95\% CI [0.49, 0.54], N = 42) condition, t(78.87) = 0.65, p = .52.
-
-The strong effect of the condition order was an unexpected finding, for two reasons. First, decades of decision-making research suggests that the attraction effect is a reliable phenomenon when attribute values are displayed numerically. However, we failed to replicate this result when the numeric choice task was completed first. Even more puzzling, we see a strong effect when it follows the pictorial choice task. We can only surmise the reason for these results.
-
-%\include{ordermixedeffects}
-%\label{mixedeff}
 
 \begin{table}[!htbp] \centering 
 \captionsetup{justification=centering}
@@ -263,20 +259,25 @@ Akaike Inf. Crit. & 1,096.336 \\
 \end{table} 
 
 
+Table \ref{mixedeff} shows the results from a  mixed-effects logistic regression, where we predict the proportion of trials where the target was chosen with the number of practice attempts and an interaction between condition and condition order.  The results again indicate that the strength of the attraction effect in the numerical condition is much more pronounced when the first condition was pictorial. Specifically, we see a 34\%, 95\% CI [13, 59], increase in the odds of choosing the target in the numerical condition, but only when it follows the pictorial condition. Interestingly, we also see a very small negative effect of the number of practice attempts: with each additional attempt, we see a 1.4\%, 95\% CI [0.04, 2.4], decrease in the odds of choosing the target.
 
-One obvious difference between our experimental task and the standard choice tasks used to investigate the attraction effect is that in our task, participants had to learn the underlying trade-off between the attribute values, as opposed to relying on a more intuitive, preferential valuation rule. This is problematic for two reasons. First, it means that our experimental task was conceptually different from a standard preferential choice task, as the choice process involved consulting a previously learnt rule, which is unlikely to resemble to a preferential choice process. A second, related issue is that in the practice stages, we trained participants to be experts in inferring the nominal value of the options, while it has been previously shown that the attraction effect tends to be stronger when the decision maker is unfamiliar with the choice domain, and weakens with expertise (references). 
+Since the order of the conditions modulated the effect, we only used every participant's first condition for our final test of the attraction effect. As expected from the visual inspection of Figure \ref{fig:Teapot_condorder}, when using Welch's t-test, we found no difference between the proportion of trials where the target was chosen in the pictorial (M = 0.5, 95\% CI [0.47, 0.53], N = 41) or numerical (M = 0.51, 95\% CI [0.49, 0.54], N = 42) condition, t(78.87) = 0.65, p = .52.
+
+To summarise, as we expected, we have not found evidence for the attraction effect in the pictorial condition, and to our surprise we have only found it in the numerical condition when it followed the pictorial condition. This was unexpected as we predicted to see the attraction effect in the numerical condition regardless of the order of the conditions. This surprised us, for two reasons. First, decades of decision-making research suggests that the attraction effect is a reliable phenomenon when attribute values are displayed numerically. In addition, it is not immediately obvious why we see such a strong attraction effect only when the numerical condition follows the pictorial condition. We can only speculate about the reasons behind these results.
+
+One obvious difference between our experimental task and the standard attraction effect choice paradigm is that in our task, participants had to learn the underlying trade-off between the attribute values, as opposed to relying on a more intuitive, preferential valuation rule. This is problematic for two reasons. First, it might mean that our artificial valuation rule was conceptually different from a standard preferential choice task (where valuation is more intuitive), as the choice process involved consulting a previously learnt rule, which is unlikely to resemble a preferential choice process. A second, related issue is that in the practice stages, we trained participants to be experts in inferring the nominal value of the options, while it has been previously shown that the attraction effect tends to be stronger when the decision maker is unfamiliar with the choice domain, and weakens with expertise (e.g., \citeNP{Huber2014}). 
 
 However, even if these concerns have some validity, they do not offer a comprehensive explanation for our results. Specifically, they cannot accommodate the fact that we found a strong effect of condition order. Our results show a strong attraction effect in the numerical condition when it follows the pictorial condition, and no attraction effect when the numerical condition comes first.
 
-We can only conjecture the underlying reason for this puzzling result. One possible explanation could be that since the numerical task required more cognitive effort, and there were many questions to be completed (80 questions in each choice task, and passing the two practice stages, which often took longer than the choice stages), participants might have spent less time deliberating and were more likely to rely on intuitive thinking when the numerical condition followed the pictorial one, which might have given rise to the attraction effect. 
+One possible explanation could be that since the numerical condition required more cognitive effort (as reflected by the much longer RTs), and there were many questions to be completed (80 questions in each choice task, and passing the two practice stages, which often took longer than the choice stages), participants might have spent less time deliberating and were more likely to rely on intuitive thinking when the numerical condition followed the pictorial one, which could have given rise to the attraction effect. 
 
-However, Figure \ref{fig:Teapot_rts} shows no substantial difference between RTs in the two conditions by condition order, and Table \ref{mixedeff} indicates that the number of practice attempts has a small \textit{negative} effect on the strength of the attraction effect (as opposed to a positive effect, as we would expect if "tired" participants were more likely to choose the target).
+However, Figure \ref{fig:Teapot_rts} shows no substantial difference between RTs in the numerical conditions by condition order, and Table \ref{mixedeff} indicates that the number of practice attempts has a small \textit{negative} effect on the strength of the attraction effect (as opposed to a positive effect, as we would expect if "tired" participants were more likely to choose the target).
 
 We also tested whether the tendency to choose the target in the numerical condition that follows a pictorial condition changes over time. If participants get tired towards the end of the experiment, \textit{and} they are more susceptible to the attraction effect when tired, then we would expect that they choose the target more often towards the end of the experiment. 
 
 To this end, we divided the number of trials in each condition into 4 equal sized blocks (in their temporal order), and calculated the corresponding target choice proportions for each blocks. If the overall number of trials were not a multiple of 4, then the remainder was allocated to the fourth block. Figure \ref{fig:Block_order} shows the average target proportion by condition, condition order and block number.
 
-We see a slightly increasing temporal tendency to choose the target in the numerical condition if it follows the pictorial condition. While this pattern is somewhat consistent with a cognitive effort explanation, the analysis of RTs and the slight negative effect of practice trials are not consistent with this explanation. In addition, we did not collect any data on participant's cognitive engagement, and the link between susceptibility to context effects and resource depletion is at best disputed in the literature. 
+We see a slightly increasing temporal tendency to choose the target in the numerical condition if it follows the pictorial condition. While this pattern is somewhat consistent with a cognitive effort explanation, the analysis of RTs and the slight negative effect of practice trials do not support this explanation. In addition, we did not collect any data on participant's cognitive engagement, and the link between susceptibility to context effects and resource depletion is at best disputed in the literature. 
 
 
 \begin{figure}
@@ -286,8 +287,8 @@ We see a slightly increasing temporal tendency to choose the target in the numer
 \label{fig:Block_order}
 \end{figure}
 
-\textcolor{red}{Logical-rules and the classification of integral dimensions: "learning changes perception by creating a featural or dimensional vocabulary which perceptual processes can use for future learning and decision making. The emergence of psychologically privileged dimensions, termed differentiation has been suggested as one of the key perceptual changes underlying human development of expertise"}
 
+what if seeing the perceptual version changes the perception of the choice options in the numerical condition? the number of questions were displayed, so it might be that towards the end they cared less -> plot the rt in each block
 
 \subsection{Discussion}
 
